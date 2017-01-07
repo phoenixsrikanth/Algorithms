@@ -73,7 +73,7 @@ public class Selection_Insertion_Sort {
 		return true;
 	}
 
-	public static void show(int[] a){
+	public static void display(int[] a){
 		for (int i=0; i<a.length; i++){
 			System.out.print(a[i]);
 			System.out.print(", ");
@@ -89,7 +89,7 @@ public class Selection_Insertion_Sort {
 		}
 		
 	    InsertionSort(arrList);
-	    show(arrList);
+	    display(arrList);
 		
 		}
 }
