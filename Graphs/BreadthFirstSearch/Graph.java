@@ -97,6 +97,7 @@ public class Graph {
 					edgeTo[vnum] = v;
 					distTo[vnum] = distTo[v] + 1;
 					marked[vnum] = true;
+					queue.add(vnum);
 					System.out.println(adjList[v].name + "->" + adjList[vnum].name);
 				}
 			}
