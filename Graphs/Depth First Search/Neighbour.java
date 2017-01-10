@@ -1,4 +1,3 @@
-package newLinkedList;
 
 public class Neighbour {
 	
