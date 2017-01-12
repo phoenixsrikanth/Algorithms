@@ -1,4 +1,3 @@
-package newLinkedList;
 
 public class Vertex {
 	String name;
